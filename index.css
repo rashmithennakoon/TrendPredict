@@ -1,0 +1,263 @@
+#a1{
+    background-color: #EAEEE9;
+}
+.imm{
+    top: 10%;
+    left: 0;
+    position: absolute;
+}
+.image-slider {
+    position: relative;
+    width: 1519px;
+    height: 700px;
+    overflow: hidden;
+}
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: slide-animation 15s infinite;
+}
+
+.slide:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slide:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.slide:nth-child(3) {
+    animation-delay: 10s;
+}
+
+@keyframes slide-animation {
+    0% {
+        opacity: 0;
+    }
+    33.33% {
+        opacity: 1;
+    }
+    66.66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.image-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.divv1{
+    font-size: 270px;
+    left: 5%;
+    top: 15%;
+    position: absolute;
+    font-weight:bolder;
+    -webkit-text-stroke: 3px black;
+}
+.letter {
+    display: inline-block;
+    animation: moveAndColorChange 1s linear infinite;
+}
+
+@keyframes moveAndColorChange {
+    0% { 
+        transform: translateX(0);
+        color: #00008B; 
+    }
+    25% { 
+        transform: translateX(20px); 
+        color: #0909FF; 
+    }
+    50% { 
+        transform: translateX(40px);
+        color: #4169E1; 
+    }
+    75% { 
+        transform: translateX(20px); 
+        color: #1E90FF; 
+    }
+    100% { 
+        transform: translateX(0);
+        color: #00008B; 
+    }
+}
+
+.letter:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.letter:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.letter:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.letter:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.letter:nth-child(6) {
+    animation-delay: 1s;
+}
+footer {
+    top:400%;
+    position: absolute;
+}
+.ppp{
+    left: 30%;
+    right: 10%;
+    top: 135%;
+    font-size: 25px;
+    text-align: justify;
+    position: absolute;
+    color: white	;
+}
+#im2{
+    top: 135%;
+    left: 5%;
+    position: absolute;
+}
+.box {
+    width: 150px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    left: -250px;
+    position: absolute;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: moveRight 12s linear infinite;
+    background-image: url('Image/img20.jpg');
+    top: 220%;
+    position: absolute;
+}
+.box:nth-child(2) {
+    animation-delay: 2s;
+  }
+  
+  .box:nth-child(3) {
+    animation-delay: 4s;
+  }
+  
+  .box:nth-child(4) {
+    animation-delay: 6s;
+  }
+  
+  .box:nth-child(5) {
+    animation-delay: 8s;
+  }
+  .box:nth-child(6) {
+    animation-delay: 10s;
+  }
+  @keyframes moveRight {
+    0% {
+      left: -50px; /* Start off screen */
+    }
+    50% {
+        transform: translateX(0) scale(1.5); /* Scale up to 1.5 times at the middle */
+      }
+    100% {
+      left: calc(100% + 50px); /* Move off screen */
+    }
+  }
+.con{
+    overflow: hidden;
+}
+.box:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+.label{
+    width: 1498px;
+    height: 60px;
+    background-color: #6698FF;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#lab1{
+    top: 120%;
+    position: absolute;
+    background-color: black;
+    width: 1498px;
+    height: 400px;
+    z-index: -1;
+}
+#hh1{
+    top:115%;
+    left: 40%;
+    color: #ADDFFF;
+    font-size: 70px;
+    position: absolute;
+    font-weight: bolder;
+}
+#lab2{
+    top: 190%;
+    position: absolute;
+}
+#lab3{
+    top: 290%;
+    position: absolute;
+}
+#im3{
+    left: 15%;
+    height: 400px;
+    width: 400px;
+    top: 310%;
+    position: absolute;
+}
+#im4{
+    right: 15%;
+    height: 400px;
+    width: 400px;
+    top: 310%;
+    position: absolute;
+}
+.page{
+    font-size: 40px;
+    font-weight: bolder;
+    border-right: none;
+}
+#top1{
+    top:370%;
+    left: 15%;
+    position: absolute;
+}
+#top2{
+    top:370%;
+    right: 15%;
+    position: absolute;
+}
+.pp{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    background-color: #0059FF;
+    border-radius: 25px;
+    top: 380%;
+    position: absolute;
+}
+#pp1{
+    left: 22%;
+    position: absolute;
+}
+#pp2{
+    right: 22%;
+    position: absolute;
+}

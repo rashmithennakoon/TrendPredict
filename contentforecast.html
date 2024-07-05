@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content of Inventory</title>
+    <link rel="stylesheet" href="contentinventory.css">
+    <link rel="stylesheet" href="firstbar.css">
+</head>
+<body>
+    <nav>
+        <ul class="u">
+          <div class="nmm">
+          <li id="a1"><a href="index.html">Home</a></li>
+          </div>
+          <li class="dropdown" id="a3">
+            <div class="nmm2">
+            <a href="#" class="dropbtn">Features</a>
+            </div>
+            <div class="dropdown-content">
+              <a href="forecast.html">Forecast Analysis</a>
+              <a href="inventory.html">Inventory Analysis</a>
+            </div>
+          </li>
+          <div class="nmm1">
+          <li id="a4"><a href="contact.html">Contact Us</a></li>
+          </div>
+        </ul>
+      </nav>
+      <footer>
+        <p>&copy; 2024. Team Beta. All right received. </p>
+    </footer>
+
+    <div class="dd">
+    <label>
+        <input type="checkbox" id="enableCheckbox" name="content" value="content" onchange="updateContent()">
+        Read the statement carefully
+    </label>
+    </div>
+    <div class="d1">
+      <ol>
+          <li>If you have not used this before then please submit at least 2 months previous data otherwise you will not get a definitive answer.</li>
+          <li>And when submitting data, if you submitted last month's data at the end, you will get the answer for this month, if you submit this month's data at the end, you will get the answer for next month. And never skip any month while submitting data. If so, you won't get an answer.</li>
+          <li>Click on the buttons to get the relevant answer.</li>
+      </ol>
+    </div>
+    <button id="actionButton" disabled>Go</button>
+    <script>
+      document.getElementById('enableCheckbox').addEventListener('change', function() {
+          document.getElementById('actionButton').disabled = !this.checked;
+      });
+      document.getElementById('actionButton').addEventListener('click', function() {
+            window.location.href = 'calculateforecast.html'; 
+        });
+  </script>
+</body>
+</html>

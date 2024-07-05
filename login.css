@@ -1,0 +1,67 @@
+#a3{
+    background-color: #EAEEE9;
+}
+.box1{
+    top: 18%;
+    left: 35%;
+    position: absolute;
+    width: 530px;    /* Width of the circle */
+    height: 480px;   /* Height of the circle */
+    background-color: white; /* Background color of the circle */
+    opacity: 0.5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+h1{
+    top: 15%;
+    left: 47%;
+    position: absolute;
+    font-size: 60px;
+}
+form{
+    top:35%;
+    left: 37%;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.bo{
+    font-size: 25px;
+    left: 110%;
+    position: absolute;
+}
+#pp1{
+    font-size: 20px;
+    top: 55%;
+    left: 45%;
+    position: absolute;
+    color: #0909FF;
+}
+#pp2{
+    font-size: 20px;
+    top: 61%;
+    left: 43%;
+    position: absolute;
+    font-weight: bolder;
+}
+#submit{
+    font-size: 30px;
+    top: 73%;
+    left: 40%;
+    position: absolute;
+    color: white;
+    background-color: #0059FF;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: none;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav, body{
+    background-image: url('Image/img19.jpg');
+}
+#aa{
+    color: #0909FF;
+    border-right: none;
+    display: contents;
+}

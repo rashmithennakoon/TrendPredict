@@ -1,0 +1,103 @@
+#a3{
+    background-color: #EAEEE9;
+}
+footer {
+    top:180%;
+    position: absolute;
+}
+.d1{
+    top: 75%;
+    left: 35%;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+}
+.d2{
+    top: 80%;
+    left: 52%;
+    position: absolute; 
+}
+.bo{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#duration{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.d3{
+    top: 120%;
+    left: 40%;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.box{
+    width: 720px;
+    height: 700px;
+    background-color: #F9F6EE;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    left: 28%;
+    top: 70%;
+    position: absolute;
+    z-index: -1;
+}
+.pp{
+    font-size: 40px;
+    text-align: justify;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    top: 153%;
+    left: 48%;
+    position: absolute;
+}
+.box1{
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 1470px;    /* Width of the circle */
+    height: 400px;   /* Height of the circle */
+    background-color: #306EFF; /* Background color of the circle */
+    z-index: -1;
+}
+#im1{
+    height: 400px;
+    width: 600px;
+    top:0%;
+    right: 0%;
+    position: absolute;
+}
+#hh1{
+    font-size: 130px;
+    top: -1%;
+    left: 10%;
+    position: absolute;
+    color: white;
+}
+.box2{
+    top: 110%;
+    left: 37%;
+    position: absolute;
+    width: 500px;    /* Width of the circle */
+    height: 300px;   /* Height of the circle */
+    background-color: #FFDDCA; /* Background color of the circle */
+    border-radius: 50px;
+}
+#but3{
+    font-size: 40px;
+    top: 113%;
+    left: 47%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}

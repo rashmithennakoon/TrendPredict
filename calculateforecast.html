@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast Analysis</title>
+    <link rel="stylesheet" href="calculateforecast.css">
+    <link rel="stylesheet" href="firstbar.css">
+</head>
+<body>
+    <nav>
+        <ul class="u">
+          <div class="nmm">
+          <li id="a1"><a href="index.html">Home</a></li>
+          </div>
+          <li class="dropdown" id="a3">
+            <div class="nmm2">
+            <a href="#" class="dropbtn">Features</a>
+            </div>
+            <div class="dropdown-content">
+              <a href="forecast.html">Forecast Analysis</a>
+              <a href="inventory.html">Inventory Analysis</a>
+            </div>
+          </li>
+          <div class="nmm1">
+          <li id="a4"><a href="contact.html">Contact Us</a></li>
+          </div>
+        </ul>
+      </nav>
+      <footer>
+        <p>&copy; 2024. Team Beta. All right received. </p>
+    </footer>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3" id="boxx1"></div>
+    <div class="box3" id="boxx2"></div>
+    <div class="box3" id="boxx3"></div>
+    <img id="im1" class = "im" src="Image/img26.png"> 
+    <h1 id="hh1">Forecasting</h1>
+    <form action='#' method="POST">
+        <div class="dd1">
+        <label for="materials" id="mat1" class="lb">Materials</label><br>
+        <input type='text' name='mat' id="mat" class="bo" placeholder="Enter Your Answer" required/><br><br>
+        <label for="month" id="month1" class="lb">Last/This Month:</label><br>
+        <select id="comboBox" class="bo">
+            <option value="item1" selected>Select</option>
+            <option value="item2">January</option>
+            <option value="item3">February</option>
+            <option value="item4">March</option>
+            <option value="item5">April</option>
+            <option value="item6">May</option>
+            <option value="item7">June</option>
+            <option value="item8">July</option>
+            <option value="item9">August</option>
+            <option value="item10">September</option>
+            <option value="item11">October</option>
+            <option value="item12">November</option>
+            <option value="item13">December</option>
+        </select><br><br>
+    
+        <label for="sales" id="sales1" class="lb">Last/This Month Actual Sales:</label><br>
+        <input type='text' name='sales' id="sales" class="bo" placeholder="Enter Your Sales Amount" required/>
+        </div>
+    </form>
+    <button id="submit">Enter Data</button>
+    <button id="but1">Demand</button>
+    <div class="d1" id="content">
+        <p id="p1" class="sentence">Simple Moving Average :-</p><br>
+        <p id="p2" class="sentence">Weighted Moving Average :-</p><br>
+        <p id="p3" class="sentence">Linear Regression :-</p>
+    </div>
+    <div class="d2" id="content1">
+        <p id="p4" class="sentence">Simple Moving Average :-</p><br>
+        <p id="p5" class="sentence">Weighted Moving Average :-</p><br>
+        <p id="p6" class="sentence">Linear Regression :-</p>
+    </div>
+    <div class="d3" id="content2">
+        <p id="p7" class="sentence">Solution Name :-</p>
+    </div>
+    <button id="but3">Best Slotuon</button>
+    <button id="but2">Error</button>
+    <button id="but4" onclick="window.location.href = 'forecast.html';">Go Back</button>
+  
+</body>
+</html>

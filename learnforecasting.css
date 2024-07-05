@@ -1,0 +1,145 @@
+#a3{
+    background-color: #EAEEE9;
+}
+footer {
+    top:430%;
+    position: absolute;
+}
+#im1{
+    top: 10%;
+    right: 0%;
+    width: 650px;
+    position: absolute;
+}
+h1{
+    font-size: 160px;
+    top: 5%;
+    left: 7%;
+    position: absolute;
+}
+.label{
+    width: 1498px;
+    height: 60px;
+    background-color: #6698FF;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#lab1{
+    top: 90%;
+    position: absolute;
+}
+.ppp{
+    left: 45%;
+    right: 10%;
+    top: 120%;
+    font-size: 25px;
+    text-align: justify;
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+}
+#im2{
+    top: 108%;
+    left: 3%;
+    width: 550px;
+    position: absolute;
+}
+#lab2{
+    top: 180%;
+    position: absolute;
+}
+ol{
+    top: 195%;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2;
+}
+#lab3{
+    top: 290%;
+    position: absolute;
+}
+#im3{
+    top: 323.5%;
+    left: 35%;
+    width: 400px;
+    position: absolute;
+}
+.px{
+    font-size: 25px;
+    position: absolute;
+    font-weight: bolder;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#p1{
+    left: 15%;
+    top:325%;
+    position: absolute;
+    background-color: #5CB3FF;
+}
+#p3{
+    left: 36%;
+    top:310%;
+    position: absolute;
+    background-color: #82CAFF;
+}
+#p4{
+    left: 65%;
+    top:325%;
+    position: absolute;
+    background-color: #87CEEB;
+}
+#p5{
+    left: 36%;
+    top:380%;
+    position: absolute;
+    background-color: #A0CFEC;
+}
+#p6{
+    left: 65%;
+    top:345%;
+    position: absolute;
+    background-color: #ADDFFF;
+}
+#p7{
+    left: 12%;
+    top:345%;
+    position: absolute;
+    background-color: #BDEDFF;
+}
+#p8{
+    left: 18%;
+    top:365%;
+    position: absolute;
+    background-color: #00BFFF;
+}
+#p10{
+    left: 65%;
+    top:365%;
+    position: absolute;
+    background-color: #56A5EC;
+}
+.pp{
+    font-size: 40px;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    background-color: #0059FF;
+    border-radius: 35px;
+    top: 405%;
+    left: 35%;
+    position: absolute;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.pp:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}

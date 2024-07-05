@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="firstbar.css">
+</head>
+<body>
+    <nav>
+        <ul class="u">
+          <div class="nmm">
+          <li id="a1"><a href="index.html">Home</a></li>
+          </div>
+          <li class="dropdown" id="a3">
+            <div class="nmm2">
+            <a href="#" class="dropbtn">Features</a>
+            </div>
+            <div class="dropdown-content">
+              <a href="forecast.html">Forecast Analysis</a>
+              <a href="inventory.html">Inventory Analysis</a>
+            </div>
+          </li>
+          <div class="nmm1">
+          <li id="a4"><a href="contact.html">Contact Us</a></li>
+          </div>
+        </ul>
+      </nav>
+    <div class="box1"></div>
+    <h1>Log In</h1>
+    <form action='#' method="POST">
+        <label for="user" id="name1" class="lb">User Name:</label>
+        <input type='text' name='name' id="name" class="bo" placeholder="Enter User Name" required/><br><br><br>
+        <label for="id" id="id1" class="lb">Password:</label>
+        <input type='password' name='id' id="id" class="bo" placeholder="Enter Password" required/>
+    </form>
+    <a href="forgetpassword.html">
+        <p id="pp1" class="pp">You forgot your Password</p>
+    </a>
+    <p id="pp2" class="pp">You don't have an account? <a id="aa" href="signin.html">Sign In</a></p>
+    <button id="submit" onclick="window.location.href = 'contentforecast.html';">Log In</button>
+</body>
+</html>

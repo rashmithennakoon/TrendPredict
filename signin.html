@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="firstbar.css">
+</head>
+<body>
+    <nav>
+        <ul class="u">
+          <div class="nmm">
+          <li id="a1"><a href="index.html">Home</a></li>
+          </div>
+          <li class="dropdown" id="a3">
+            <div class="nmm2">
+            <a href="#" class="dropbtn">Features</a>
+            </div>
+            <div class="dropdown-content">
+              <a href="forecast.html">Forecast Analysis</a>
+              <a href="inventory.html">Inventory Analysis</a>
+            </div>
+          </li>
+          <div class="nmm1">
+          <li id="a4"><a href="contact.html">Contact Us</a></li>
+          </div>
+        </ul>
+      </nav>
+    <div class="box1"></div>
+    <h1>Sign In</h1>
+    <form action='#' method="POST">
+        <label for="name" id="name1" class="lb">Full Name:</label>
+        <input type='text' name='name' id="name" class="bo" required/><br><br>
+        <label for="user" id="user1" class="lb">User Name:</label>
+        <input type='text' name='user' id="name" class="bo" required/><br><br>
+        <label for="country" id="country1" class="lb">Country:</label>
+        <input type='text' name='country' id="country" class="bo" required/><br><br>
+        <label for="email" id="email1" class="lb">Email:</label>
+        <input type='text' name='email' id="email" class="bo" required/><br><br>
+        <label for="phone" id="phone1" class="lb">Phone Number:</label>
+        <input type='text' name='phone' id="phone" class="bo" required/><br><br>
+        <label for="id" id="id1" class="lb">Password:</label>
+        <input type='password' name='id' id="id" class="bo" required/><br><br>
+        <label for="id" id="idd1" class="lb">Re-enter Password:</label>
+        <input type='password' name='idd' id="idd" class="bo" required/><br><br>
+        <label for="question" id="question1" class="lb">Give a question to ask if you forget the password:</label><br>
+        <textarea id="message" name="message" rows="2" cols="40" class="b" required></textarea><br><br>
+        <label for="answer" id="answer1" class="lb">Answer:</label>
+        <input type='text' name='answer' id="answer" class="bo" required/><br><br>
+    </form>
+    <button id="submit" onclick="window.location.href = 'login.html';">Sign In</button>
+    <div class="box1"></div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+#a3{
+    background-color: #EAEEE9;
+}
+footer {
+    top:130%;
+    position: absolute;
+    z-index: 1;
+}
+#im1{
+    top: 10%;
+    right: 0%;
+    left: 0%;
+    width: 1519px;
+    height: 900px;
+    position: absolute;
+}
+h1{
+    font-size: 200px;
+    top: 5%;
+    left: 25%;
+    position: absolute;
+    color: white;
+    -webkit-text-stroke: 3px black;
+}
+.pp{
+    font-size: 40px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 25px;
+    top: 100%;
+    position: absolute;
+    border: 2px solid #0059FF;
+}
+#pp1{
+    left: 32%;
+    color: white;
+    background-color: #0059FF;
+    position: absolute;
+}
+#pp2{
+    right: 34%;
+    color: #0059FF;
+    font-weight: bolder;
+    background-color: none;
+    position: absolute;
+}
+#pp2:hover {
+    background-color: #0059FF;
+    color: white;
+}

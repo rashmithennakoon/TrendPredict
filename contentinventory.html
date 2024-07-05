@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content of Inventory</title>
+    <link rel="stylesheet" href="contentinventory.css">
+    <link rel="stylesheet" href="firstbar.css">
+</head>
+<body>
+    <nav>
+        <ul class="u">
+          <div class="nmm">
+          <li id="a1"><a href="index.html">Home</a></li>
+          </div>
+          <li class="dropdown" id="a3">
+            <div class="nmm2">
+            <a href="#" class="dropbtn">Features</a>
+            </div>
+            <div class="dropdown-content">
+              <a href="forecast.html">Forecast Analysis</a>
+              <a href="inventory.html">Inventory Analysis</a>
+            </div>
+          </li>
+          <div class="nmm1">
+          <li id="a4"><a href="contact.html">Contact Us</a></li>
+          </div>
+        </ul>
+      </nav>
+      <footer>
+        <p>&copy; 2024. Team Beta. All right received. </p>
+    </footer>
+
+    <div class="dd">
+    <label>
+        <input type="checkbox" id="enableCheckbox" name="content" value="content" onchange="updateContent()">
+        Read the statement carefully
+    </label>
+    </div>
+    <div class="d1">
+      <ol>
+          <li>Here you can provide the demand value from the forecast or even the demand value you have found from some other source.</li>
+          <li>The accuracy of all answers depends on that Demand value.</li>
+          <li>Also make sure to provide the other values ​​you have to provide the answer.</li>
+      </ol>
+    </div>
+    <button id="actionButton" disabled>Go</button>
+    <script>
+      document.getElementById('enableCheckbox').addEventListener('change', function() {
+          document.getElementById('actionButton').disabled = !this.checked;
+      });
+      document.getElementById('actionButton').addEventListener('click', function() {
+            window.location.href = 'calculateinventory.html'; 
+        });
+  </script>
+</body>
+</html>

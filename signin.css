@@ -1,0 +1,54 @@
+#a3{
+    background-color: #EAEEE9;
+}
+nav, body{
+    background-image: url('Image/img19.jpg');
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed;
+}
+h1{
+    font-size: 40px;
+    left: 45%;
+    top: 8%;
+    position: absolute;
+}
+form{
+    font-size: 20px;
+    font-weight: bolder;
+    left: 35%;
+    top: 20%;
+    position: absolute;
+}
+.bo{
+    font-size: 20px;
+    left: 50%;
+    position: absolute;
+}
+.b{
+    font-size: 20px;
+}
+#submit{
+    font-size: 30px;
+    top: 87%;
+    left: 35%;
+    position: absolute;
+    color: white;
+    background-color: #0059FF;
+    padding-left: 200px;
+    padding-right: 200px;
+    border: none;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.box1{
+    top: 11%;
+    left: 32%;
+    position: absolute;
+    width: 600px;    /* Width of the circle */
+    height: 600px;   /* Height of the circle */
+    background-color: white; /* Background color of the circle */
+    opacity: 0.3;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}

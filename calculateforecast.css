@@ -1,0 +1,134 @@
+#a3{
+    background-color: #EAEEE9;
+}
+footer {
+    top:210%;
+    position: absolute;
+}
+form{
+    font-size: 25px;
+    top: 75%;
+    left: 42%;
+    position: absolute;
+    font-weight: bolder;
+}
+.bo{
+    font-size: 20px;
+    left: 8%;
+    position: absolute;
+}
+#submit{
+    font-size: 30px;
+    top: 115%;
+    left: 45%;
+    position: absolute;
+    background-color: black;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#but1{
+    font-size: 40px;
+    top: 135%;
+    left: 15%;
+    position: absolute;
+}   
+button:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+.d1{
+    font-size: 20px;
+    top: 145%;
+    left: 10%;
+    position: absolute;
+    font-weight: bolder;
+}
+#but2{
+    font-size: 40px;
+    top: 135%;
+    left: 47%;
+    position: absolute;
+}
+.d2{
+    font-size: 20px;
+    top: 145%;
+    left: 40%;
+    position: absolute;
+    font-weight: bolder;
+} 
+#but3{
+    font-size: 40px;
+    top: 135%;
+    left: 72%;
+    position: absolute;
+}
+.d3{
+    font-size: 25px;
+    top: 155%;
+    left: 68%;
+    position: absolute;
+    font-weight: bolder;
+} 
+#but4{
+    font-size: 40px;
+    top: 195%;
+    left: 45%;
+    position: absolute;
+}
+.box1{
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 1470px;    /* Width of the circle */
+    height: 400px;   /* Height of the circle */
+    background-color: #306EFF; /* Background color of the circle */
+    z-index: -1;
+}
+#im1{
+    height: 400px;
+    width: 600px;
+    top:0%;
+    right: 0%;
+    position: absolute;
+}
+#hh1{
+    font-size: 130px;
+    top: 10%;
+    left: 7%;
+    position: absolute;
+    color: white;
+}
+.box2{
+    top: 70%;
+    left: 5%;
+    position: absolute;
+    width: 1340px;    /* Width of the circle */
+    height: 950px;   /* Height of the circle */
+    background-color: #F9F6EE; /* Background color of the circle */
+    z-index: -1;
+}
+.box3{
+    top: 130%;
+    position: absolute;
+    width: 400px;    /* Width of the circle */
+    height: 400px;   /* Height of the circle */
+    background-color: #FFDDCA; /* Background color of the circle */
+    z-index: -1;
+    border-radius: 50px;
+}
+#boxx1{
+    left: 7%;
+    position: absolute;
+}
+#boxx2{
+    left: 37%;
+    position: absolute;
+}
+#boxx3{
+    left: 67%;
+    position: absolute;
+}
